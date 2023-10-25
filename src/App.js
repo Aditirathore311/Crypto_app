@@ -4,6 +4,7 @@ import { Layout, Typography, Space } from 'antd';
 
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
+
 const App = () => {
   return (
     <div className="app">
@@ -29,7 +30,7 @@ const App = () => {
               <Route exact path="/news">
                 <News />
               </Route>
-            </Switch>
+            </Switch> 
           </div>
         </Layout>
       </div>
